@@ -20,8 +20,8 @@ from requests.auth import HTTPBasicAuth
 import unicodecsv as csv 
 import base64 
 # Set variables for global use
-username ='ian.love@hpe.com'
-password ='love2u'
+username ='ian.love'
+password ='pass'
 mauth = HTTPBasicAuth(username, password)
 
 class MeridianAPI:
